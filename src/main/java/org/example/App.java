@@ -18,6 +18,12 @@ public class App {
 
             if(command.equals("종료")){
                 break;
+            } else if (command.equals("등록")) {
+                System.out.println("명언 : ");
+                String wise = sc.nextLine().trim();
+                System.out.println("작가 : ");
+                String name = sc.nextLine().trim();
+                System.out.println("1번 명언이 등록되었습니다.");
             }
         }
     }
