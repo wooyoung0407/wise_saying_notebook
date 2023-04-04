@@ -11,6 +11,7 @@ public class App {
 
     public void run() {
         System.out.println("== 명언 앱 ==");
+        int number = 0;
 
         while(true){ //while문으로 무한 반복문
             System.out.println("명언)");
@@ -24,7 +25,9 @@ public class App {
                 String wise = sc.nextLine().trim(); // 명언받아오는 String
                 System.out.println("작가 : ");
                 String name = sc.nextLine().trim(); // 작가이름 받아오는 String
-                System.out.println("1번 명언이 등록되었습니다.");
+//                System.out.println("1번 명언이 등록되었습니다.");
+                int id = ++number;
+                System.out.printf("%d번 명언이 등록되었습니다.\n",id);
             }
 
 
