@@ -24,6 +24,7 @@ public class App {
                 String wise = sc.nextLine().trim(); // 명언받아오는 String
                 System.out.println("작가 : ");
                 String name = sc.nextLine().trim(); // 작가이름 받아오는 String
+                System.out.println("1번 명언이 등록되었습니다.");
             }
 
 
